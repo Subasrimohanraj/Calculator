@@ -1,24 +1,7 @@
-def add(x, y): return x + y
-def subtract(x, y): return x - y
-def multiply(x, y): return x * y
-def divide(x, y): return x / y if y != 0 else "Error: Division by zero"
+skmfksjiw fjmkmsd
+skmkskfsiflsnfa
+mfaoiems,amfa
+mdfmakiw a;kfnav a
+,snfkaoiemmlandokk
+mnmnfkalsssownopfnoelll
 
-print("1.Add, 2.Subtract, 3.Multiply, 4.Divide")
-while True:
-    choice = input("Enter choice (1-4): ")
-    if choice in ('1', '2', '3', '4'):
-        try:
-            n1 = float(input("Enter first number: "))
-            n2 = float(input("Enter second number: "))
-            
-            if choice == '1': print(f"Result: {add(n1, n2)}")
-            elif choice == '2': print(f"Result: {subtract(n1, n2)}")
-            elif choice == '3': print(f"Result: {multiply(n1, n2)}")
-            elif choice == '4': print(f"Result: {divide(n1, n2)}")
-        except ValueError:
-            print("Invalid input")
-            continue
-        
-        if input("Again? (y/n): ").lower() != 'y': break
-    else:
-        print("Invalid Input")
